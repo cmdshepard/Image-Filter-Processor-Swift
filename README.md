@@ -12,12 +12,17 @@ How to use:
 
 
 // Sample:
+
 var image: UIImage?
 
 let blueFilter = imageProcessor(imageInput: image!).applyFilter("blue")                 // 'blue' default filter
+
 let grayscaleFilter = imageProcessor(imageInput: image!).applyFilter("grayscale")       // 'grayscale' default filter
+
 let invertFilter = imageProcessor(imageInput: image!).applyFilter("invert")             // 'invert' default filter
+
 let sepiaFilter = imageProcessor(imageInput: image!).applyFilter("sepia")               // 'sepia' default filter
+
 let brightFilter = imageProcessor(imageInput: image!).applyFilter("bright")             // 'bright' default filter
 
 
